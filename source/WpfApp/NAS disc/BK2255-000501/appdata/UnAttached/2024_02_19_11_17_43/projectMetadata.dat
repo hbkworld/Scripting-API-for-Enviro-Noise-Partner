@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnnotationMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AnnotationMetadata>
+    <Version>0</Version>
+    <Latitude>55.800689697265625</Latitude>
+    <Longitude>12.498690577516477</Longitude>
+    <Uncertainty>21.139524518333133</Uncertainty>
+    <Type>Project</Type>
+    <File>c9668d8a-d3b0-4418-8407-97094adace9c.dat</File>
+    <CreationDate>2024-02-19T11:18:57.795084Z</CreationDate>
+    <DestinationOnSxu>UnAttached/2024_02_19_11_17_43/project.dat</DestinationOnSxu>
+  </AnnotationMetadata>
+</ArrayOfAnnotationMetadata>

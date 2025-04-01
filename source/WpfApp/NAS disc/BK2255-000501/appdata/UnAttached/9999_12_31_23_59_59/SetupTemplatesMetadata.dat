@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnnotationMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AnnotationMetadata>
+    <Version>0</Version>
+    <Latitude>37.33233141</Latitude>
+    <Longitude>-122.0312186</Longitude>
+    <Uncertainty>5</Uncertainty>
+    <Type>TemplateList</Type>
+    <File>a70cde18-e2a2-4da7-8a72-912e9091d653.json</File>
+    <CreationDate>2024-01-16T11:18:14.849532Z</CreationDate>
+    <DestinationOnSxu>UnAttached/9999_12_31_23_59_59/SetupTemplates.json</DestinationOnSxu>
+  </AnnotationMetadata>
+</ArrayOfAnnotationMetadata>

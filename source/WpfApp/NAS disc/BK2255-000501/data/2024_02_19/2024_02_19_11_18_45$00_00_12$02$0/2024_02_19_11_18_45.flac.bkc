@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Storage Version="2">
+ <Domaindata>
+  <Name>MeasurementCounter</Name>
+  <Value>2</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>Setup</Name>
+  <Value>total.bkc.Part3.setup.xml</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>System</Name>
+  <Value>total.bkc.Part4.system.xml</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>ProjectGuid</Name>
+  <Value>{99c46155-b5f8-4939-9086-ed4d56333172}</Value>
+ </Domaindata>
+ <ClockSource ClockId="{18d47344-b9d6-4a5f-80a3-b0d5f456264d}">
+  <Family>
+   <Power2>32</Power2>
+  </Family>
+  <Table>
+   <StartTime>
+    <DateTimeUtc>2024-02-19T11:18:45+01:00</DateTimeUtc>
+   </StartTime>
+   <PrimarySequenceId>155</PrimarySequenceId>
+   <Sequence Name="FLACTime" DataType="BKTimeSpan" Id="155">
+    <File>.Part0</File>
+    <General>
+     <FunctionType>StreamedTime</FunctionType>
+     <Description>FLAC period time</Description>
+    </General>
+    <IndexMapping>
+     <Type>Linear</Type>
+     <LinearDelta>65536</LinearDelta>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LatchedOverload" DataType="DataQuality" Id="3">
+    <File>.Part1</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>DescriptorQuality</FunctionType>
+     <Description>Latched overload</Description>
+    </General>
+    <IndexMapping>
+     <Type>Constant</Type>
+     <InitialValue>0</InitialValue>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="FLACSignal" DataType="Int32" Id="157">
+    <File>.Part2.flac</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>StreamedTimeHistory</FunctionType>
+     <Description>FLAC signal</Description>
+    </General>
+    <Interpretation>
+     <Scale>1.862636e-05</Scale>
+     <Unit>
+      <Part>
+       <Text>Pa</Text>
+       <PhysicalQuantity>SoundPressure</PhysicalQuantity>
+      </Part>
+     </Unit>
+    </Interpretation>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+  </Table>
+ </ClockSource>
+ <MeasurementChain Version="1">
+  <Configuration>
+   <Frame Family="SLM" Name="Sound Level Meter">
+    <Module Type="2255" Description="Sound Level Meter" SerialNumber="000501" Version="0.5" SoftwareType="FW-2255-000" SoftwareDescription="SLM Firmware" SoftwareVersion="1.2.0.1325">
+     <Channel Type="Input" Id="2255-000501:1" Name="Microphone"/>
+    </Module>
+   </Frame>
+   <Signal>
+    <Name>Ch.1</Name>
+    <ChannelId>2255-000501:1</ChannelId>
+    <HighpassFilter>5 Hz</HighpassFilter>
+    <SoundField>Free-field</SoundField>
+    <Windscreen>None</Windscreen>
+    <CalibrationDateTime>1970-01-01T00:00:00+00:00</CalibrationDateTime>
+    <CalibrationSensitivity Unit="V/Pa">0.043350</CalibrationSensitivity>
+    <PhysicalQuantity>Sound Pressure</PhysicalQuantity>
+    <TransducerManufacturer>B&amp;K</TransducerManufacturer>
+    <TransducerSerialNumber>0</TransducerSerialNumber>
+    <TransducerType>4966</TransducerType>
+   </Signal>
+  </Configuration>
+ </MeasurementChain>
+ <Licenses>
+  <License Key="BZ-7450" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7350" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7452" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7404" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7300" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7453" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7301" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7400" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7454" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7402" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7303" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7302" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7401" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7304" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7403" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7451" Version="1.0" ExpireDate="permanent"/>
+ </Licenses>
+</Storage>

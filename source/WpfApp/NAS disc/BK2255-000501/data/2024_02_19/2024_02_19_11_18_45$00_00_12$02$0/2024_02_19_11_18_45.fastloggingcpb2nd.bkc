@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Storage Version="2">
+ <Domaindata>
+  <Name>MeasurementCounter</Name>
+  <Value>2</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>Setup</Name>
+  <Value>total.bkc.Part3.setup.xml</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>System</Name>
+  <Value>total.bkc.Part4.system.xml</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>ProjectGuid</Name>
+  <Value>{99c46155-b5f8-4939-9086-ed4d56333172}</Value>
+ </Domaindata>
+ <ClockSource ClockId="{4b0a36b9-dab2-49be-b91b-bd26beb0c848}">
+  <Family>
+   <Power2>32</Power2>
+  </Family>
+  <Table>
+   <StartTime>
+    <DateTimeUtc>2024-02-19T11:18:45+01:00</DateTimeUtc>
+   </StartTime>
+   <Sequence Name="CPBFastLoggingPeriodTime" DataType="BKTimeSpan" Id="153">
+    <File>.Part0</File>
+    <General>
+     <FunctionType>DescriptorAveragingTime</FunctionType>
+     <Description>Spectrum fast logging interval</Description>
+    </General>
+    <IndexMapping>
+     <Type>Constant</Type>
+     <InitialValue>33554432</InitialValue>
+    </IndexMapping>
+   </Sequence>
+   <PrimarySequenceId>2</PrimarySequenceId>
+   <Sequence Name="StartTime" DataType="BKTimeSpan" Id="2">
+    <File>.Part0</File>
+    <General>
+     <FunctionType>StreamedTime</FunctionType>
+     <Description>Start time</Description>
+    </General>
+    <IndexMapping>
+     <Type>Linear</Type>
+     <LinearDelta>33554432</LinearDelta>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LatchedOverload" DataType="DataQuality" Id="3">
+    <File>.Part1</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>DescriptorQuality</FunctionType>
+     <Description>Latched overload</Description>
+    </General>
+    <IndexMapping>
+     <Type>Constant</Type>
+     <InitialValue>0</InitialValue>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="FastCPBLCeq2nd" DataType="Int16" Id="254">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLeq</FunctionType>
+     <Description>LCeq</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>C</AcousticalWeighting>
+    </AcousticalWeighting>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+  </Table>
+ </ClockSource>
+ <MeasurementChain Version="1">
+  <Configuration>
+   <Frame Family="SLM" Name="Sound Level Meter">
+    <Module Type="2255" Description="Sound Level Meter" SerialNumber="000501" Version="0.5" SoftwareType="FW-2255-000" SoftwareDescription="SLM Firmware" SoftwareVersion="1.2.0.1325">
+     <Channel Type="Input" Id="2255-000501:1" Name="Microphone"/>
+    </Module>
+   </Frame>
+   <Signal>
+    <Name>Ch.1</Name>
+    <ChannelId>2255-000501:1</ChannelId>
+    <HighpassFilter>5 Hz</HighpassFilter>
+    <SoundField>Free-field</SoundField>
+    <Windscreen>None</Windscreen>
+    <CalibrationDateTime>1970-01-01T00:00:00+00:00</CalibrationDateTime>
+    <CalibrationSensitivity Unit="V/Pa">0.043350</CalibrationSensitivity>
+    <PhysicalQuantity>Sound Pressure</PhysicalQuantity>
+    <TransducerManufacturer>B&amp;K</TransducerManufacturer>
+    <TransducerSerialNumber>0</TransducerSerialNumber>
+    <TransducerType>4966</TransducerType>
+   </Signal>
+  </Configuration>
+ </MeasurementChain>
+ <Licenses>
+  <License Key="BZ-7450" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7350" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7452" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7404" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7300" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7453" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7301" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7400" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7454" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7402" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7303" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7302" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7401" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7304" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7403" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7451" Version="1.0" ExpireDate="permanent"/>
+ </Licenses>
+ <Signature Value="6E79181BB3ABFA03F0771BD233523EF7360855EF51F7FBAEA0CE12C5ECED8AB9CB8696DD1E9ABA42AB4D8FA0EBCBFE1B563B50405447C468E518487DA7F76CF84D0C346FAA025241660D03044862EC6CC3DD991916BE0F96888B64B8061F5F4D38FD6AD7E6FB35DF8386F4C060D7F3822107502FE2969B052CEA0BCA9276F341F189E8518465774A44DEDB79F0DFEF7EC595425EFE940EF5561154831A2F34AD94AE23A0A60DC33826038D0022AA345938113F1BBED44D39828E4D69D2D0C1B019E349AFA498DD0C43F3B85FD1BB7FD287B7735F216E97135131E029BC50D179604CD3D6C295E2C9E4DC240D7D9D910FF0434513D13A51942A629C6B5C68A566" Type="Certificate" Secret="-----BEGIN CERTIFICATE-----&#13;&#10;MIIDZTCCAk0CEFxUem13Dt5vMIwLA3+HEyowDQYJKoZIhvcNAQELBQAwgZgxCzAJ&#13;&#10;BgNVBAYTAlVLMQ8wDQYDVQQIDAZTdXJyZXkxDjAMBgNVBAcMBUVnaGFtMRUwEwYD&#13;&#10;VQQKDAxTcGVjdHJpcyBwbGMxGDAWBgNVBAsMD0luc3RydW1lbnRhdGlvbjEPMA0G&#13;&#10;A1UEAwwGd2ViLXhpMSYwJAYJKoZIhvcNAQkBFhdDYXJzdGVuLkhhbnNlbkBia3N2&#13;&#10;LmNvbTAeFw0xOTAxMDkxNTA3NThaFw00OTAxMDExNTA3NThaMEkxCzAJBgNVBAYT&#13;&#10;AkRLMRMwEQYDVQQHDApDb3BlbmhhZ2VuMQ0wCwYDVQQKDARCS1NWMRYwFAYDVQQD&#13;&#10;DA1CSzIyNDVfMDAwNTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA&#13;&#10;uH80kbLZcGIpqmWjhrbApstRCfsjdPKx4icyc2r79zxdzLTPWPaeClImHmh18B/v&#13;&#10;0i5B6WuSzrZAZ1JC+qts79vj3sELtq+kTNIAyZx03fl4bEvBRjPzpDEVlpo9S4st&#13;&#10;owReTyK0kGQO3XUISiDL3ZA+IcbiD05XEjFytLCRogdbandoaSCKF1IcyIeAaBuB&#13;&#10;+9QnOzbksssdOr7JdGdM30IPs+Rvbnw90erYrHohH2DyYP0r5yu/D9gpu2HXfp/8&#13;&#10;6f6vBi3ozAUf88sizTx1NI5QS56ydSE0idHjIMVfFJMkM7xc2LJPZRb4aIAfbph0&#13;&#10;pqjAwl3i1Nr4/mSkA0lUHwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB402kPpLdr&#13;&#10;ckr6QgjTtYXMGVdCLfYfsl43IDDaX5eQABIOzWS5UqqBxsvFwWjIvGwh9YsSf3Tw&#13;&#10;Z3D7TPx/3wdl+/BJWMkl9uVsScH/eZLLIqzyKeHToHFkmaBzbRCnGNc9iC4j2ji6&#13;&#10;3PNNzNJ3q77DPX7L1GWX8xYt4F1V2QIp/oFf06eeV6McfZ0zX5UUflB3dMfxTYoZ&#13;&#10;J5Y4m4FpxuOfvB7OFr6cOOJrGFdRDD6+8yjbDg4RPfZxaQ8NnsFp2zNk9Rtj60Gv&#13;&#10;dWs9bfe2ntIgO0NCMvOSP+bvgGVuHxczKRWnfN7GOiAJY58rsLxX2XZVA00kc3su&#13;&#10;muN61mA8Vvg8&#13;&#10;-----END CERTIFICATE-----&#10;">
+        <File Value="607995A06E4E9B5612BF3F1A7A77EC9AF03906F77BEF8A2B90FC9118E75026FE" Type="SHA256" Secret="None"></File>
+        <File Value="0B474BF877F9737656C860D19E4C5B83B3B42B02BD8320A3A77BE468365DBDE9" Type="SHA256" Secret="None">.Part2</File>
+    </Signature>
+</Storage>

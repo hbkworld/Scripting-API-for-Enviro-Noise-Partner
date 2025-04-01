@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Setup>
+ <SLMDisplayMode localname="Display">1</SLMDisplayMode>
+ <ListDisplayMode localname="Display">1</ListDisplayMode>
+ <SpectrumDisplayMode localname="Display">1</SpectrumDisplayMode>
+ <ProfileDisplayMode localname="Display">1</ProfileDisplayMode>
+ <AboutDataDisplayMode localname="Display">1</AboutDataDisplayMode>
+ <RegionalLanguage localname="Language">English</RegionalLanguage>
+ <RegionalTimeZoneGMT localname="Time zone GMT">GMT+01:00</RegionalTimeZoneGMT>
+ <RegionalTimeZone localname="Time zone">Europe/Copenhagen</RegionalTimeZone>
+ <RegionalDateFormat localname="Date format">yyyy_MM_dd</RegionalDateFormat>
+ <RegionalTimeFormat localname="Time format">HH_mm_ss</RegionalTimeFormat>
+ <RegionalDateSeparator localname="Date separator">-</RegionalDateSeparator>
+ <RegionalWindSpeedUnit localname="Wind speed unit">US/UK</RegionalWindSpeedUnit>
+ <RegionalTemperatureUnit localname="Temperature unit">US/UK</RegionalTemperatureUnit>
+ <RegionalDimensionUnit localname="Dimension unit">SI</RegionalDimensionUnit>
+ <RegionalDecimalPoint localname="Decimal point">.</RegionalDecimalPoint>
+ <RegionalDecimalPlaces localname="Decimal places">1</RegionalDecimalPlaces>
+ <DisplayScheme localname="Colour scheme" localvalue="Dark">Dark</DisplayScheme>
+ <DisplayBacklight localname="Screen brightness" localvalue="Maximum">Maximum</DisplayBacklight>
+ <ActiveDisplayMode localname="Active display">2</ActiveDisplayMode>
+ <InputMicrophone localname="Microphone">{ec4c23c8-0c3f-4aee-8fb1-14971a1d293b}</InputMicrophone>
+ <CalibrationCalibrator localname="Calibrator" localvalue="Type 4231">Calibrator4231</CalibrationCalibrator>
+ <CalibrationLevel localname="Calibration level">124</CalibrationLevel>
+ <CalibratorSerialNo localname="Calibrator serial number">0</CalibratorSerialNo>
+ <CalibratorSerialNoAuto localname="Calibrator serial number">0</CalibratorSerialNoAuto>
+ <CalibrationAutomaticCheck localname="Automatic check">1</CalibrationAutomaticCheck>
+ <CalibrationReminder localname="Calibration reminder">1</CalibrationReminder>
+ <CalibrationInterval localname="Calibration interval">1</CalibrationInterval>
+ <NextCalibrationDate localname="Next calibration">2023-02-14T23:00:00Z</NextCalibrationDate>
+ <LatestCalibrationReminder localname="LatestCalibrationReminder">2024-02-19T07:58:40Z</LatestCalibrationReminder>
+ <PowerTrafficLight localname="Light ring brightness" localvalue="Normal">Normal</PowerTrafficLight>
+ <PowerSwitchOff localname="Shut down after" localvalue="Never">Never</PowerSwitchOff>
+ <TimerActive localname="Timer">0</TimerActive>
+ <TimerStart localname="Start timer">0</TimerStart>
+ <TimerMonday localname="Monday" localvalue="On">On</TimerMonday>
+ <TimerTuesday localname="Tuesday" localvalue="On">On</TimerTuesday>
+ <TimerWednesday localname="Wednesday" localvalue="On">On</TimerWednesday>
+ <TimerThursday localname="Thursday" localvalue="Off">Off</TimerThursday>
+ <TimerFriday localname="Friday" localvalue="Off">Off</TimerFriday>
+ <TimerSaturday localname="Saturday" localvalue="Off">Off</TimerSaturday>
+ <TimerSunday localname="Sunday" localvalue="Off">Off</TimerSunday>
+ <TimerNumber localname="Timer number">1</TimerNumber>
+ <PowerDisplayOff localname="Switch off screen after" localvalue="Never">Never</PowerDisplayOff>
+ <NetworkNickname localname="Nickname">501</NetworkNickname>
+ <NetworkWifiMode localname="Wi-Fi mode" localvalue="Connect to network">Connect to network</NetworkWifiMode>
+ <NetworkHotspotPassword localname="Hotspot password">6Pjo7ejp</NetworkHotspotPassword>
+ <NetworkWifiSetUpIP localname="Set up IP">1</NetworkWifiSetUpIP>
+ <NetworkWifiIPAddress localname="IP address">192.168.1.191</NetworkWifiIPAddress>
+ <NetworkWifiSubnetMask localname="Subnet mask">255.255.255.0</NetworkWifiSubnetMask>
+ <NetworkWifiGateway localname="Gateway">192.168.1.1</NetworkWifiGateway>
+ <NetworkWifiDNS localname="DNS">192.168.1.1</NetworkWifiDNS>
+ <NetworkEthernetSetUpIP localname="Set up IP">1</NetworkEthernetSetUpIP>
+ <NetworkEthernetIPAddress localname="IP address">10.103.65.45</NetworkEthernetIPAddress>
+ <NetworkEthernetSubnetMask localname="Subnet mask">255.255.252.0</NetworkEthernetSubnetMask>
+ <NetworkEthernetGateway localname="Gateway">10.103.64.1</NetworkEthernetGateway>
+ <NetworkEthernetDNS localname="DNS">10.100.48.12</NetworkEthernetDNS>
+ <NASDomain localname="Domain">hbkworld.com</NASDomain>
+ <NASUser localname="User">env</NASUser>
+ <NASPath localname="Path">SXU</NASPath>
+ <NASHostname localname="Host name or IP">10.103.128.12</NASHostname>
+ <Sambaversion localname="Samba version">Version 1.0</Sambaversion>
+ <BackupMode localname="Backup" localvalue="Network storage">Network storage</BackupMode>
+ <ServiceLockSetups localname="Lock settings">0</ServiceLockSetups>
+ <ServiceGpsLocation localname="GPS location">1</ServiceGpsLocation>
+ <ServiceLicenseMode1 localname="Service License mode 1">True</ServiceLicenseMode1>
+ <ServiceLicenseMode2 localname="Service License mode 2">True</ServiceLicenseMode2>
+ <ServiceLicenseMode3 localname="Service License mode 3">True</ServiceLicenseMode3>
+ <ServiceLicenseMode4 localname="Service License mode 4">True</ServiceLicenseMode4>
+ <ServiceLicenseMode5 localname="Service License mode 5">True</ServiceLicenseMode5>
+ <ServiceLicenseMode6 localname="Service License mode 6">True</ServiceLicenseMode6>
+ <ServiceLicenseMode7 localname="Service License mode 7">True</ServiceLicenseMode7>
+ <ServiceLicenseMode8 localname="Service License mode 8">True</ServiceLicenseMode8>
+ <ServiceLicenseMode9 localname="Service License mode 9">True</ServiceLicenseMode9>
+ <ServiceLicenseMode10 localname="Service License mode 10">True</ServiceLicenseMode10>
+ <ServiceLicenseMode11 localname="Service License mode 11">True</ServiceLicenseMode11>
+ <ServiceLicenseMode12 localname="Service License mode 12">True</ServiceLicenseMode12>
+ <ServiceLicenseMode13 localname="Service License mode 13">True</ServiceLicenseMode13>
+ <ServiceLicenseMode14 localname="Service License mode 14">True</ServiceLicenseMode14>
+ <ServiceLicenseMode15 localname="Service License mode 15">True</ServiceLicenseMode15>
+ <ServiceLicenseMode16 localname="Service License mode 16">True</ServiceLicenseMode16>
+ <ServiceLicenseMode17 localname="Service License mode 17">True</ServiceLicenseMode17>
+ <ServiceLicenseMode18 localname="Service License mode 18">True</ServiceLicenseMode18>
+ <ServiceLicenseMode19 localname="Service License mode 19">True</ServiceLicenseMode19>
+ <ServiceLicenseMode20 localname="Service License mode 20">True</ServiceLicenseMode20>
+ <MeasurementCounter localname="Measurement no.">1</MeasurementCounter>
+ <DataRetention localname="Data retention" localvalue="Automatic">Automatic</DataRetention>
+ <RetentionPeriod localname="Retention period">180</RetentionPeriod>
+ <NotificationMode localname="Notifications" localvalue="Email">E-mail</NotificationMode>
+ <NotificationDailyStatus localname="Daily status" localvalue="Disabled">Disabled</NotificationDailyStatus>
+ <NotificationSendAt localname="Send at">0</NotificationSendAt>
+ <NotificationBatteryAlarm localname="Battery alarm at">10 %</NotificationBatteryAlarm>
+ <NotificationPowerConnectedAlarm localname="Power connected" localvalue="Disabled">Disabled</NotificationPowerConnectedAlarm>
+ <NotificationDiskSpaceAlarm localname="Disk space alarm at">10 %</NotificationDiskSpaceAlarm>
+ <NotificationRestartedByWatchdogAlarm localname="Instrument  restart" localvalue="Disabled">Disabled</NotificationRestartedByWatchdogAlarm>
+ <NotificationCICStatus localname="CIC status" localvalue="Disabled">Disabled</NotificationCICStatus>
+ <NotificationAudioEvent localname="Audio events" localvalue="Disabled">Disabled</NotificationAudioEvent>
+ <NotificationEmailTo localname="Email to"></NotificationEmailTo>
+ <NotificationEmailSMTP localname="SMTP"></NotificationEmailSMTP>
+ <NotificationEmailSMTPPort localname="SMTP port">587</NotificationEmailSMTPPort>
+ <NotificationEmailSSLTLS localname="SSL/TLS" localvalue="No">No</NotificationEmailSSLTLS>
+ <NotificationEmailAccount localname="Account"></NotificationEmailAccount>
+ <NotificationEmailUserName localname="User"></NotificationEmailUserName>
+ <NotificationEmailPassword localname="Password"></NotificationEmailPassword>
+ <NetworkWebserverDisplay localname="Web server display">1</NetworkWebserverDisplay>
+</Setup>

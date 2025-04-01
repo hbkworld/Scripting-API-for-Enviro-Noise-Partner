@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSettingsParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SettingsParameter>
+    <Name>Project 1</Name>
+    <Value>2024-02-19T11:02:11.2378880+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Various logging rates</Name>
+    <Value>2024-02-15T12:11:29.2734100+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Manycolumns</Name>
+    <Value>2024-01-18T16:05:50.9998910+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 2</Name>
+    <Value>2024-01-17T15:33:45.9179590+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 1</Name>
+    <Value>2024-01-17T13:54:23.5261400+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 2</Name>
+    <Value>2024-01-16T11:17:59.7607520+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 1</Name>
+    <Value>2024-01-16T09:48:56.2993400+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>402 infra 501 slm</Name>
+    <Value>2024-01-16T09:34:08.6914900+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>A mix of instruments</Name>
+    <Value>2024-01-05T11:00:57.2967810+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 1</Name>
+    <Value>2024-01-02T09:23:44.1572390+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 1</Name>
+    <Value>2023-12-22T09:49:31.7576610+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Remote trigger</Name>
+    <Value>2023-12-22T09:23:04.0964130+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 6</Name>
+    <Value>2023-12-21T13:58:59.3408050+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 5</Name>
+    <Value>2023-12-21T11:59:49.4587580+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Project 4</Name>
+    <Value>2023-12-21T11:26:34.4863060+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>NAS project</Name>
+    <Value>2024-02-19T11:17:43.4462720+01:00</Value>
+  </SettingsParameter>
+</ArrayOfSettingsParameter>

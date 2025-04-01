@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGroupSettingsParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GroupSettingsParameter>
+    <GroupName>Thomas</GroupName>
+    <SettingsParameter>
+      <Name>Project 1</Name>
+      <Value>2024-02-19T11:02:11.2378880+01:00</Value>
+    </SettingsParameter>
+  </GroupSettingsParameter>
+</ArrayOfGroupSettingsParameter>

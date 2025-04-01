@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Storage Version="2">
+ <Domaindata>
+  <Name>MeasurementCounter</Name>
+  <Value>1</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>Setup</Name>
+  <Value>total.bkc.Part3.setup.xml</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>System</Name>
+  <Value>total.bkc.Part4.system.xml</Value>
+ </Domaindata>
+ <Domaindata>
+  <Name>ProjectGuid</Name>
+  <Value>{53d4d1d8-0ed5-4f32-a276-59a4d04f776e}</Value>
+ </Domaindata>
+ <ClockSource ClockId="{b0cc8585-bc09-44e3-bb82-4bca8a532a75}">
+  <Family>
+   <Power2>32</Power2>
+  </Family>
+  <Table>
+   <StartTime>
+    <DateTimeUtc>2024-02-19T11:18:16+01:00</DateTimeUtc>
+   </StartTime>
+   <PrimarySequenceId>140</PrimarySequenceId>
+   <Sequence Name="StopTime" DataType="BKTimeSpan" Id="140">
+    <File>.Part0</File>
+    <General>
+     <FunctionType>StreamedTime</FunctionType>
+     <Description>Stop time</Description>
+    </General>
+    <IndexMapping>
+     <Type>Constant</Type>
+     <InitialValue>55834574848</InitialValue>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="ElapsedTime" DataType="BKTimeSpan" Id="1">
+    <File>.Part0</File>
+    <General>
+     <FunctionType>DescriptorAveragingTime</FunctionType>
+     <Description>Elapsed time</Description>
+    </General>
+    <IndexMapping>
+     <Type>Constant</Type>
+     <InitialValue>55834574848</InitialValue>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LatchedOverload" DataType="DataQuality" Id="3">
+    <File>.Part1</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>DescriptorQuality</FunctionType>
+     <Description>Latched overload</Description>
+    </General>
+    <IndexMapping>
+     <Type>Constant</Type>
+     <InitialValue>0</InitialValue>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LAeq" DataType="Int16" Id="6">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLeq</FunctionType>
+     <Description>LAeq</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LZeq" DataType="Int16" Id="8">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLeq</FunctionType>
+     <Description>LZeq</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>Z</AcousticalWeighting>
+    </AcousticalWeighting>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LAFmax" DataType="Int16" Id="12">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLmax</FunctionType>
+     <Description>LAFmax</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LASmax" DataType="Int16" Id="16">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLmax</FunctionType>
+     <Description>LASmax</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Slow</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LAFmin" DataType="Int16" Id="21">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLmin</FunctionType>
+     <Description>LAFmin</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LASmin" DataType="Int16" Id="25">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLmin</FunctionType>
+     <Description>LASmin</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Slow</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LCpeak" DataType="Int16" Id="30">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLpeak</FunctionType>
+     <Description>LCpeak</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>C</AcousticalWeighting>
+    </AcousticalWeighting>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLAeq" DataType="Int16" Id="35">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLeq</FunctionType>
+     <Description>LAeq</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLAFmax" DataType="Int16" Id="40">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmax</FunctionType>
+     <Description>LAFmax</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLASmax" DataType="Int16" Id="45">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmax</FunctionType>
+     <Description>LASmax</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Slow</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLAFmin" DataType="Int16" Id="50">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmin</FunctionType>
+     <Description>LAFmin</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLASmin" DataType="Int16" Id="55">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmin</FunctionType>
+     <Description>LASmin</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Slow</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LN1" DataType="Int16" Id="101">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLN</FunctionType>
+     <Description>LAF 1.0</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <Percentile>
+     <Percentile>1</Percentile>
+    </Percentile>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LN2" DataType="Int16" Id="102">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLN</FunctionType>
+     <Description>LAF10.0</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <Percentile>
+     <Percentile>10</Percentile>
+    </Percentile>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LN3" DataType="Int16" Id="103">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLN</FunctionType>
+     <Description>LAF50.0</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <Percentile>
+     <Percentile>50</Percentile>
+    </Percentile>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LN4" DataType="Int16" Id="104">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLN</FunctionType>
+     <Description>LAF90.0</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <Percentile>
+     <Percentile>90</Percentile>
+    </Percentile>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LN5" DataType="Int16" Id="105">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLN</FunctionType>
+     <Description>LAF99.0</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <Percentile>
+     <Percentile>99</Percentile>
+    </Percentile>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="Latitude" DataType="Double" Id="141">
+    <File>.Part2</File>
+    <General>
+     <FunctionType>StreamedAuxiliaryData</FunctionType>
+     <Description>Latitude</Description>
+    </General>
+    <Interpretation>
+     <Unit>
+      <Part>
+       <Text>deg</Text>
+       <PhysicalQuantity>Latitude</PhysicalQuantity>
+      </Part>
+     </Unit>
+    </Interpretation>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="Longitude" DataType="Double" Id="142">
+    <File>.Part2</File>
+    <General>
+     <FunctionType>StreamedAuxiliaryData</FunctionType>
+     <Description>Longitude</Description>
+    </General>
+    <Interpretation>
+     <Unit>
+      <Part>
+       <Text>deg</Text>
+       <PhysicalQuantity>Longitude</PhysicalQuantity>
+      </Part>
+     </Unit>
+    </Interpretation>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="Altitude" DataType="Double" Id="168">
+    <File>.Part2</File>
+    <General>
+     <FunctionType>StreamedAuxiliaryData</FunctionType>
+     <Description>Altitude</Description>
+    </General>
+    <Interpretation>
+     <Unit>
+      <Part>
+       <Text>m</Text>
+       <PhysicalQuantity>Altitude</PhysicalQuantity>
+      </Part>
+     </Unit>
+    </Interpretation>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LatitudePrecision" DataType="Double" Id="169">
+    <File>.Part2</File>
+    <General>
+     <FunctionType>StreamedAuxiliaryData</FunctionType>
+     <Description>Latitude precision</Description>
+    </General>
+    <Interpretation>
+     <Unit>
+      <Part>
+       <Text>m</Text>
+       <PhysicalQuantity>Length</PhysicalQuantity>
+      </Part>
+     </Unit>
+    </Interpretation>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LongitudePrecision" DataType="Double" Id="170">
+    <File>.Part2</File>
+    <General>
+     <FunctionType>StreamedAuxiliaryData</FunctionType>
+     <Description>Longitude precision</Description>
+    </General>
+    <Interpretation>
+     <Unit>
+      <Part>
+       <Text>m</Text>
+       <PhysicalQuantity>Length</PhysicalQuantity>
+      </Part>
+     </Unit>
+    </Interpretation>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="AltitudePrecision" DataType="Double" Id="171">
+    <File>.Part2</File>
+    <General>
+     <FunctionType>StreamedAuxiliaryData</FunctionType>
+     <Description>Altitude precision</Description>
+    </General>
+    <Interpretation>
+     <Unit>
+      <Part>
+       <Text>m</Text>
+       <PhysicalQuantity>Length</PhysicalQuantity>
+      </Part>
+     </Unit>
+    </Interpretation>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLCeq2nd" DataType="Int16" Id="174">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLeq</FunctionType>
+     <Description>LCeq</Description>
+    </General>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>C</AcousticalWeighting>
+    </AcousticalWeighting>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLCFmax2nd" DataType="Int16" Id="179">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmax</FunctionType>
+     <Description>LCFmax</Description>
+    </General>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>C</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLCSmax2nd" DataType="Int16" Id="184">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmax</FunctionType>
+     <Description>LCSmax</Description>
+    </General>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>C</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Slow</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLCFmin2nd" DataType="Int16" Id="189">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmin</FunctionType>
+     <Description>LCFmin</Description>
+    </General>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>C</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="CPBLCSmin2nd" DataType="Int16" Id="194">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>OctaveLmin</FunctionType>
+     <Description>LCSmin</Description>
+    </General>
+    <DataAxis DataType="Double">
+     <Type>Cpb</Type>
+     <Length>36</Length>
+     <CpbNumberFractions>3</CpbNumberFractions>
+     <CpbFirstBand>8</CpbFirstBand>
+    </DataAxis>
+    <AcousticalWeighting>
+     <AcousticalWeighting>C</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Slow</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="LAeqTaiSIL" DataType="Int16" Id="242">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>BroadbandLeq</FunctionType>
+     <Description>LAeq(80 Hz - 800 Hz)</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+   <Sequence Name="StdDev" DataType="Int16" Id="267">
+    <File>.Part2</File>
+    <ChannelInformation>
+     <SignalName>Ch.1</SignalName>
+    </ChannelInformation>
+    <General>
+     <FunctionType>None</FunctionType>
+     <Description>Standard deviation</Description>
+    </General>
+    <Quality>
+     <DataSequence>3</DataSequence>
+    </Quality>
+    <AcousticalWeighting>
+     <AcousticalWeighting>A</AcousticalWeighting>
+    </AcousticalWeighting>
+    <Averaging>
+     <AveragingMode>Fast</AveragingMode>
+    </Averaging>
+    <IndexMapping>
+     <Type>Explicit</Type>
+    </IndexMapping>
+   </Sequence>
+  </Table>
+ </ClockSource>
+ <MeasurementChain Version="1">
+  <Configuration>
+   <Frame Family="SLM" Name="Sound Level Meter">
+    <Module Type="2255" Description="Sound Level Meter" SerialNumber="000501" Version="0.5" SoftwareType="FW-2255-000" SoftwareDescription="SLM Firmware" SoftwareVersion="1.2.0.1325">
+     <Channel Type="Input" Id="2255-000501:1" Name="Microphone"/>
+    </Module>
+   </Frame>
+   <Signal>
+    <Name>Ch.1</Name>
+    <ChannelId>2255-000501:1</ChannelId>
+    <HighpassFilter>5 Hz</HighpassFilter>
+    <SoundField>Free-field</SoundField>
+    <Windscreen>None</Windscreen>
+    <CalibrationDateTime>1970-01-01T00:00:00+00:00</CalibrationDateTime>
+    <CalibrationSensitivity Unit="V/Pa">0.043350</CalibrationSensitivity>
+    <PhysicalQuantity>Sound Pressure</PhysicalQuantity>
+    <TransducerManufacturer>B&amp;K</TransducerManufacturer>
+    <TransducerSerialNumber>0</TransducerSerialNumber>
+    <TransducerType>4966</TransducerType>
+   </Signal>
+  </Configuration>
+ </MeasurementChain>
+ <Licenses>
+  <License Key="BZ-7450" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7350" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7452" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7404" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7300" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7453" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7301" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7400" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7454" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7402" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7303" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7302" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7401" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7304" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7403" Version="1.0" ExpireDate="permanent"/>
+  <License Key="BZ-7451" Version="1.0" ExpireDate="permanent"/>
+ </Licenses>
+ <Signature Value="938256933E70A76FF2BA92F8DDDEC1023A55564FC902DBFA94AEDD251DBF19E9BE5B5AC99FC9EDBFEF4C0231683391A513A24104BC79A7C0E093820CAC4719611B00DE055AE352A522132F8A1A470374861013A43A7A864DBE754A84E7B09723FC1D084EE9AD61B03E5E401236F6947DEB1E69A8FF77E24812358A0AE27B9AE2AEF4BAE8310D1838F685221E0F4E3352D8BCB7AC51290F19EFD73EC2C891834CDAC4446FB4EE23714C2671CFBCE74870305C33716194268AFA2AA8D73423627A23551A2E83256DB9E8E7468BED80F8DEDC8041CC929F8EF4933930CA2FE84C14DEE1F2A1DCD822834202E8FDD1E4A040430645C1E9A921542652F874FFD8E05C" Type="Certificate" Secret="-----BEGIN CERTIFICATE-----&#13;&#10;MIIDZTCCAk0CEFxUem13Dt5vMIwLA3+HEyowDQYJKoZIhvcNAQELBQAwgZgxCzAJ&#13;&#10;BgNVBAYTAlVLMQ8wDQYDVQQIDAZTdXJyZXkxDjAMBgNVBAcMBUVnaGFtMRUwEwYD&#13;&#10;VQQKDAxTcGVjdHJpcyBwbGMxGDAWBgNVBAsMD0luc3RydW1lbnRhdGlvbjEPMA0G&#13;&#10;A1UEAwwGd2ViLXhpMSYwJAYJKoZIhvcNAQkBFhdDYXJzdGVuLkhhbnNlbkBia3N2&#13;&#10;LmNvbTAeFw0xOTAxMDkxNTA3NThaFw00OTAxMDExNTA3NThaMEkxCzAJBgNVBAYT&#13;&#10;AkRLMRMwEQYDVQQHDApDb3BlbmhhZ2VuMQ0wCwYDVQQKDARCS1NWMRYwFAYDVQQD&#13;&#10;DA1CSzIyNDVfMDAwNTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA&#13;&#10;uH80kbLZcGIpqmWjhrbApstRCfsjdPKx4icyc2r79zxdzLTPWPaeClImHmh18B/v&#13;&#10;0i5B6WuSzrZAZ1JC+qts79vj3sELtq+kTNIAyZx03fl4bEvBRjPzpDEVlpo9S4st&#13;&#10;owReTyK0kGQO3XUISiDL3ZA+IcbiD05XEjFytLCRogdbandoaSCKF1IcyIeAaBuB&#13;&#10;+9QnOzbksssdOr7JdGdM30IPs+Rvbnw90erYrHohH2DyYP0r5yu/D9gpu2HXfp/8&#13;&#10;6f6vBi3ozAUf88sizTx1NI5QS56ydSE0idHjIMVfFJMkM7xc2LJPZRb4aIAfbph0&#13;&#10;pqjAwl3i1Nr4/mSkA0lUHwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB402kPpLdr&#13;&#10;ckr6QgjTtYXMGVdCLfYfsl43IDDaX5eQABIOzWS5UqqBxsvFwWjIvGwh9YsSf3Tw&#13;&#10;Z3D7TPx/3wdl+/BJWMkl9uVsScH/eZLLIqzyKeHToHFkmaBzbRCnGNc9iC4j2ji6&#13;&#10;3PNNzNJ3q77DPX7L1GWX8xYt4F1V2QIp/oFf06eeV6McfZ0zX5UUflB3dMfxTYoZ&#13;&#10;J5Y4m4FpxuOfvB7OFr6cOOJrGFdRDD6+8yjbDg4RPfZxaQ8NnsFp2zNk9Rtj60Gv&#13;&#10;dWs9bfe2ntIgO0NCMvOSP+bvgGVuHxczKRWnfN7GOiAJY58rsLxX2XZVA00kc3su&#13;&#10;muN61mA8Vvg8&#13;&#10;-----END CERTIFICATE-----&#10;">
+        <File Value="D25C68BD911B8DAA30257123F03F414583660B9300FC1DA524E78CAE664336EE" Type="SHA256" Secret="None"></File>
+        <File Value="43EC4F197A75D50CFA5DCA343188DDAC56FAC14C1A3396396B9936D52A17EE7C" Type="SHA256" Secret="None">.Part2</File>
+        <File Value="016F88D5D6E1DD5C97D4F3EDD07A419DB4BDB15369EA63AC07A7357EC48E4483" Type="SHA256" Secret="None">.Part3.setup.xml</File>
+        <File Value="5E7388B327BD9CE7BAA5943C7FE5BB52F8D36B4E782D9D1685845DB7D498E326" Type="SHA256" Secret="None">.Part4.system.xml</File>
+    </Signature>
+</Storage>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSettingsParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SettingsParameter>
+    <Name>Name</Name>
+    <Value>NAS project</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Id</Name>
+    <Value>6e1bd6fb-a804-43ff-b064-69341f135fcd</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Version</Name>
+    <Value>12</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>CreationTime</Name>
+    <Value>2024-02-19T11:17:43.4462720+01:00</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>HiddenTableParameters</Name>
+    <Value>[]</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>HiddenMapAnnotations</Name>
+    <Value>[]</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>ShowMarkerEvolutions</Name>
+    <Value>True</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>ShowTotalMinusExcludeEvolutions</Name>
+    <Value>False</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>ShowCompressedArea</Name>
+    <Value>False</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>IsMultiInstrumentProject</Name>
+    <Value>False</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>Measurements</Name>
+    <Value>1,2024-02-19T11:18:16.0000000,0:::2,2024-02-19T11:18:45.0000000,0</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>MeasurementNames</Name>
+    <Value>[{"Measurement":1,"Start":"1970-01-02T01:00:00","Serial":null,"Name":" 01","SoundFreqWeight":2},{"Measurement":1,"Start":"2024-02-19T11:18:16","Serial":null,"Name":" 01","SoundFreqWeight":2},{"Measurement":0,"Start":"0001-01-01T00:00:00","Serial":null,"Name":" 00","SoundFreqWeight":2},{"Measurement":2,"Start":"2024-02-19T11:18:45","Serial":null,"Name":" 02","SoundFreqWeight":2}]</Value>
+  </SettingsParameter>
+  <SettingsParameter>
+    <Name>IOSMeasurementNames</Name>
+    <Value>{"":[{"ElapsedTime":"00:00:00","MeasurementNumber":1,"FilePaths":null,"TopNodePath":"2024_02_19_11_18_16$00:00:00$1$0","Checked":false,"CreationTime":"2024-02-19T11:18:16","Name":"1","AdditionalInformation":null,"MeasurementName":null},{"ElapsedTime":"00:00:00","MeasurementNumber":2,"FilePaths":null,"TopNodePath":"2024_02_19_11_18_45$00:00:00$2$0","Checked":false,"CreationTime":"2024-02-19T11:18:45","Name":"2","AdditionalInformation":null,"MeasurementName":null}]}</Value>
+  </SettingsParameter>
+</ArrayOfSettingsParameter>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnnotationMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AnnotationMetadata>
+    <Version>0</Version>
+    <Latitude>55.800689697265625</Latitude>
+    <Longitude>12.498690577516477</Longitude>
+    <Uncertainty>21.139524518333133</Uncertainty>
+    <Type>ProjectGroupList</Type>
+    <File>c1cf67a1-ab4f-47ea-b781-e55c2f14ada6.xml</File>
+    <CreationDate>2024-02-19T11:17:44.052933Z</CreationDate>
+    <DestinationOnSxu>Enviro/9999_12_31_23_59_59/ProjectGroupMapping.xml</DestinationOnSxu>
+  </AnnotationMetadata>
+</ArrayOfAnnotationMetadata>

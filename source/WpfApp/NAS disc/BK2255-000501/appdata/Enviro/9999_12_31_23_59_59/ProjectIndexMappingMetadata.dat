@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnnotationMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AnnotationMetadata>
+    <Version>0</Version>
+    <Latitude>55.800689697265625</Latitude>
+    <Longitude>12.498690577516477</Longitude>
+    <Uncertainty>21.139524518333133</Uncertainty>
+    <Type>ProjectList</Type>
+    <File>8f4acdeb-6458-43e3-ade6-f931d7364700.xml</File>
+    <CreationDate>2024-02-19T11:18:07.664421Z</CreationDate>
+    <DestinationOnSxu>Enviro/9999_12_31_23_59_59/ProjectIndexMapping.xml</DestinationOnSxu>
+  </AnnotationMetadata>
+</ArrayOfAnnotationMetadata>

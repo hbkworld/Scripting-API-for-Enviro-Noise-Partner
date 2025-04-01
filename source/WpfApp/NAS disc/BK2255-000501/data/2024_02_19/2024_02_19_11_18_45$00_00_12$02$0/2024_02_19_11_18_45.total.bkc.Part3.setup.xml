@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Setup>
+ <SetupMode localname="Setup mode" localvalue="SLM">SLM</SetupMode>
+ <ControlBackEraseMode localname="Back-erase mode" localvalue="Disabled">Disabled</ControlBackEraseMode>
+ <SpectrumFullScale localname="Graph max level">140 dB</SpectrumFullScale>
+ <SpectrumMinLevel localname="Graph min level">20 dB</SpectrumMinLevel>
+ <FrequencyCPBBandwidth localname="Bandwidth" localvalue="1/3-octave">1/3-octave</FrequencyCPBBandwidth>
+ <FrequencyCPBBandwidth2nd localname="Bandwidth" localvalue="1/3-octave">1/3-octave</FrequencyCPBBandwidth2nd>
+ <ControlLoggingInterval localname="Logging interval">1 s</ControlLoggingInterval>
+ <ControlPresetTime localname="Preset time">600</ControlPresetTime>
+ <ControlMeasurementTimeControl localname="Measurement time" localvalue="Free">Free</ControlMeasurementTimeControl>
+ <ControlMeasurementStartControl localname="Measurement start" localvalue="Manual">Manual</ControlMeasurementStartControl>
+ <ControlImpulseTriggerLevel localname="Trigger level">80 dB</ControlImpulseTriggerLevel>
+ <ControlImpulseTriggerRepeat localname="Trigger repeat" localvalue="Disabled">Disabled</ControlImpulseTriggerRepeat>
+ <SpectrumPar1 localname="Parameter 1" localvalue="LCF">CPBLCF2nd</SpectrumPar1>
+ <SpectrumPar2 localname="Parameter 2" localvalue="LZeq">CPBLZeq</SpectrumPar2>
+ <FrequencyRange localname="Frequency range" localvalue="Extended">Extended</FrequencyRange>
+ <SpectrumDisplayLimitLow localname="Lower limit">6</SpectrumDisplayLimitLow>
+ <SpectrumDisplayLimitHigh localname="Higher limit">35</SpectrumDisplayLimitHigh>
+ <TaiSILLow localname="f1 for Leq(f1-f2)">11</TaiSILLow>
+ <TaiSILHigh localname="f2 for Leq(f1-f2)">21</TaiSILHigh>
+ <SLMPar1 localname="Parameter" localvalue="LAF10.0">LN2</SLMPar1>
+ <ControlLoggingMode localname="Logging mode" localvalue="Enabled">Enabled</ControlLoggingMode>
+ <InputSoundField localname="Sound field" localvalue="Free-field">Free-field</InputSoundField>
+ <InputSoundField4966 localname="Sound field" localvalue="Free-field">Free-field</InputSoundField4966>
+ <InputSoundFieldUnknown localname="Sound field" localvalue="Free-field">Free-field</InputSoundFieldUnknown>
+ <InputSoundField4952 localname="Sound field" localvalue="Free-field 0°">Free-field 0 Deg</InputSoundField4952>
+ <InputSoundField4964 localname="Sound field" localvalue="Free-field">Free-field</InputSoundField4964>
+ <InputSoundField4954 localname="Sound field" localvalue="Free-field">Free-field</InputSoundField4954>
+ <InputSoundField4944 localname="Sound field" localvalue="Free-field">Free-field</InputSoundField4944>
+ <InputWindscreenDetect localname="Windscreen detect" localvalue="Enabled">Enabled</InputWindscreenDetect>
+ <InputWindscreenDetect4966 localname="Windscreen detect" localvalue="Enabled">Enabled</InputWindscreenDetect4966>
+ <InputWindscreenDetectUnknown localname="Windscreen detect" localvalue="Enabled">Enabled</InputWindscreenDetectUnknown>
+ <InputWindscreenDetect4952 localname="Windscreen detect" localvalue="Disabled">Disabled</InputWindscreenDetect4952>
+ <InputWindscreenDetect4964 localname="Windscreen detect" localvalue="Enabled">Enabled</InputWindscreenDetect4964>
+ <InputWindscreenDetect4954 localname="Windscreen detect" localvalue="Disabled">Disabled</InputWindscreenDetect4954>
+ <InputWindscreenDetect4944 localname="Windscreen detect" localvalue="Disabled">Disabled</InputWindscreenDetect4944>
+ <InputWindscreenType localname="Windscreen type" localvalue="None">None</InputWindscreenType>
+ <InputWindscreenType4966 localname="Windscreen type" localvalue="None">None</InputWindscreenType4966>
+ <InputWindscreenTypeUnknown localname="Windscreen type" localvalue="None">None</InputWindscreenTypeUnknown>
+ <InputWindscreenType4952 localname="Windscreen type" localvalue="UA-1679">UA-1679</InputWindscreenType4952>
+ <InputWindscreenType4964 localname="Windscreen type" localvalue="None">None</InputWindscreenType4964>
+ <InputWindscreenType4954 localname="Windscreen type" localvalue="None">None</InputWindscreenType4954>
+ <InputWindscreenType4944 localname="Windscreen type" localvalue="None">None</InputWindscreenType4944>
+ <ControlCICMode localname="CIC" localvalue="None">None</ControlCICMode>
+ <ControlCICFirstCheck localname="First check">0</ControlCICFirstCheck>
+ <ControlCICSecondCheck localname="Second check">0</ControlCICSecondCheck>
+ <ControlCICThirdCheck localname="Third check">0</ControlCICThirdCheck>
+ <ControlCICFourthCheck localname="Fourth check">0</ControlCICFourthCheck>
+ <ControlBBFastLoggingInterval localname="Broadband fast logging">32 ms</ControlBBFastLoggingInterval>
+ <ControlCPBFastLoggingInterval localname="Spectrum fast logging">8 ms</ControlCPBFastLoggingInterval>
+ <BBStatisticsBasedOn localname="Basis parameter" localvalue="LAF">LAF</BBStatisticsBasedOn>
+ <StatisticsPercentile1 localname="Percentile 1">1</StatisticsPercentile1>
+ <StatisticsPercentile2 localname="Percentile 2">10</StatisticsPercentile2>
+ <StatisticsPercentile3 localname="Percentile 3">50</StatisticsPercentile3>
+ <StatisticsPercentile4 localname="Percentile 4">90</StatisticsPercentile4>
+ <StatisticsPercentile5 localname="Percentile 5">99</StatisticsPercentile5>
+ <ControlBackEraseTime localname="Back-erase time">5 s</ControlBackEraseTime>
+ <AudioRecordingAnalysisQuality localname="Analysis quality">1</AudioRecordingAnalysisQuality>
+ <AudioRecordingListenQuality localname="Listen quality">0</AudioRecordingListenQuality>
+ <AudioRecordingPrerecordingTime localname="Pre-recording">10 s</AudioRecordingPrerecordingTime>
+ <AudioRecordingPostrecordingTime localname="Post-recording">2 s</AudioRecordingPostrecordingTime>
+ <AudioRecordingMaximumDurationEnable localname="Maximum duration" localvalue="Disabled">Disabled</AudioRecordingMaximumDurationEnable>
+ <AudioRecordingMaximumDurationTime localname="Duration">60 s</AudioRecordingMaximumDurationTime>
+ <LevelTrigger1 localname="Level trigger 1" localvalue="Disabled">Disabled</LevelTrigger1>
+ <LevelTrigger1StartTime localname="Start time">0 s</LevelTrigger1StartTime>
+ <LevelTrigger1StopTime localname="Stop time">86399 s</LevelTrigger1StopTime>
+ <LevelTrigger1Par localname="Parameter" localvalue="LAeq">LAeq</LevelTrigger1Par>
+ <LevelTrigger1StartSlope localname="Start slope" localvalue="Rising">Rising</LevelTrigger1StartSlope>
+ <LevelTrigger1StartLevel localname="Start level">80 dB</LevelTrigger1StartLevel>
+ <LevelTrigger1StartDuration localname="Start duration">2 s</LevelTrigger1StartDuration>
+ <LevelTrigger1StopLevel localname="Stop level">70 dB</LevelTrigger1StopLevel>
+ <LevelTrigger1StopDuration localname="Stop duration">2 s</LevelTrigger1StopDuration>
+ <LevelTrigger1HoldOffTime localname="Hold off">0 s</LevelTrigger1HoldOffTime>
+ <LevelTrigger2 localname="Level trigger 2" localvalue="Disabled">Disabled</LevelTrigger2>
+ <LevelTrigger2StartTime localname="Start time">0 s</LevelTrigger2StartTime>
+ <LevelTrigger2StopTime localname="Stop time">86399 s</LevelTrigger2StopTime>
+ <LevelTrigger2Par localname="Parameter" localvalue="LAeq">LAeq</LevelTrigger2Par>
+ <LevelTrigger2StartSlope localname="Start slope" localvalue="Rising">Rising</LevelTrigger2StartSlope>
+ <LevelTrigger2StartLevel localname="Start level">80 dB</LevelTrigger2StartLevel>
+ <LevelTrigger2StartDuration localname="Start duration">2 s</LevelTrigger2StartDuration>
+ <LevelTrigger2StopLevel localname="Stop level">70 dB</LevelTrigger2StopLevel>
+ <LevelTrigger2StopDuration localname="Stop duration">2 s</LevelTrigger2StopDuration>
+ <LevelTrigger2HoldOffTime localname="Hold off">0 s</LevelTrigger2HoldOffTime>
+ <LevelTrigger3 localname="Level trigger 3" localvalue="Disabled">Disabled</LevelTrigger3>
+ <LevelTrigger3StartTime localname="Start time">0 s</LevelTrigger3StartTime>
+ <LevelTrigger3StopTime localname="Stop time">86399 s</LevelTrigger3StopTime>
+ <LevelTrigger3Par localname="Parameter" localvalue="LAeq">LAeq</LevelTrigger3Par>
+ <LevelTrigger3StartSlope localname="Start slope" localvalue="Rising">Rising</LevelTrigger3StartSlope>
+ <LevelTrigger3StartLevel localname="Start level">80 dB</LevelTrigger3StartLevel>
+ <LevelTrigger3StartDuration localname="Start duration">2 s</LevelTrigger3StartDuration>
+ <LevelTrigger3StopLevel localname="Stop level">70 dB</LevelTrigger3StopLevel>
+ <LevelTrigger3StopDuration localname="Stop duration">2 s</LevelTrigger3StopDuration>
+ <LevelTrigger3HoldOffTime localname="Hold off">0 s</LevelTrigger3HoldOffTime>
+ <LevelTrigger4 localname="Level trigger 4" localvalue="Disabled">Disabled</LevelTrigger4>
+ <LevelTrigger4StartTime localname="Start time">0 s</LevelTrigger4StartTime>
+ <LevelTrigger4StopTime localname="Stop time">86399 s</LevelTrigger4StopTime>
+ <LevelTrigger4Par localname="Parameter" localvalue="LAeq">LAeq</LevelTrigger4Par>
+ <LevelTrigger4StartSlope localname="Start slope" localvalue="Rising">Rising</LevelTrigger4StartSlope>
+ <LevelTrigger4StartLevel localname="Start level">80 dB</LevelTrigger4StartLevel>
+ <LevelTrigger4StartDuration localname="Start duration">2 s</LevelTrigger4StartDuration>
+ <LevelTrigger4StopLevel localname="Stop level">70 dB</LevelTrigger4StopLevel>
+ <LevelTrigger4StopDuration localname="Stop duration">2 s</LevelTrigger4StopDuration>
+ <LevelTrigger4HoldOffTime localname="Hold off">0 s</LevelTrigger4HoldOffTime>
+ <TimerTrigger localname="Trigger" localvalue="Disabled">Disabled</TimerTrigger>
+ <TimerTriggerPeriodTime localname="Period">3600 s</TimerTriggerPeriodTime>
+ <TimerTriggerDuration localname="Duration">300 s</TimerTriggerDuration>
+ <TimerTriggerSyncPeriodsTo localname="Sync periods to">43200 s</TimerTriggerSyncPeriodsTo>
+ <SLMPar2 localname="Parameter 2" localvalue="LCpeak">LCpeak</SLMPar2>
+ <ListBBPar1 localname="Parameter 1" localvalue="LAF10.0">LN2</ListBBPar1>
+ <ListBBPar2 localname="Parameter 2" localvalue="LCpeak">LCpeak</ListBBPar2>
+ <ListBBPar3 localname="Parameter 3" localvalue="LAFmax">LAFmax</ListBBPar3>
+ <ListBBPar4 localname="Parameter 4" localvalue="LAFmin">LAFmin</ListBBPar4>
+ <ProfilePar localname="Parameter" localvalue="LZeq">LZeq</ProfilePar>
+ <ProfileBBPar1 localname="Parameter" localvalue="LAeq">LAeq</ProfileBBPar1>
+ <ProfileFullScale localname="Graph max level">140 dB</ProfileFullScale>
+ <ProfileMinLevel localname="Graph min level">20 dB</ProfileMinLevel>
+ <BBFreqWeightA localname="A-weighting">True</BBFreqWeightA>
+ <BBFreqWeightC localname="C-weighting">True</BBFreqWeightC>
+ <BBFreqWeightZ localname="Z-weighting">True</BBFreqWeightZ>
+ <BBFreqWeightB localname="B-weighting">False</BBFreqWeightB>
+ <CPBFreqWeightA localname="A-weighting">True</CPBFreqWeightA>
+ <CPBFreqWeightC localname="C-weighting">False</CPBFreqWeightC>
+ <CPBFreqWeightZ localname="Z-weighting">False</CPBFreqWeightZ>
+ <CPBFreqWeightB localname="B-weighting">False</CPBFreqWeightB>
+ <CPBFreqWeightA2nd localname="A-weighting">False</CPBFreqWeightA2nd>
+ <CPBFreqWeightC2nd localname="C-weighting">True</CPBFreqWeightC2nd>
+ <CPBFreqWeightZ2nd localname="Z-weighting">False</CPBFreqWeightZ2nd>
+ <CPBFreqWeightB2nd localname="B-weighting">False</CPBFreqWeightB2nd>
+ <BBLAeq localname="LAeq">True</BBLAeq>
+ <BBLCeq localname="LCeq">False</BBLCeq>
+ <BBLZeq localname="LZeq">True</BBLZeq>
+ <BBLBeq localname="LBeq">True</BBLBeq>
+ <TaiSILA localname="LAeq(f1-f2)">True</TaiSILA>
+ <TaiSILC localname="LCeq(f1-f2)">False</TaiSILC>
+ <TaiSILZ localname="LZeq(f1-f2)">True</TaiSILZ>
+ <TaiSILB localname="LBeq(f1-f2)">False</TaiSILB>
+ <BBLAIeq localname="LAIeq">False</BBLAIeq>
+ <BBLAFmax localname="LAFmax">True</BBLAFmax>
+ <BBLCFmax localname="LCFmax">False</BBLCFmax>
+ <BBLZFmax localname="LZFmax">False</BBLZFmax>
+ <BBLBFmax localname="LBFmax">True</BBLBFmax>
+ <BBLASmax localname="LASmax">True</BBLASmax>
+ <BBLCSmax localname="LCSmax">False</BBLCSmax>
+ <BBLZSmax localname="LZSmax">False</BBLZSmax>
+ <BBLBSmax localname="LBSmax">False</BBLBSmax>
+ <BBLAImax localname="LAImax">False</BBLAImax>
+ <BBLAFmin localname="LAFmin">True</BBLAFmin>
+ <BBLCFmin localname="LCFmin">False</BBLCFmin>
+ <BBLZFmin localname="LZFmin">False</BBLZFmin>
+ <BBLBFmin localname="LBFmin">False</BBLBFmin>
+ <BBLASmin localname="LASmin">True</BBLASmin>
+ <BBLCSmin localname="LCSmin">False</BBLCSmin>
+ <BBLZSmin localname="LZSmin">False</BBLZSmin>
+ <BBLBSmin localname="LBSmin">False</BBLBSmin>
+ <BBLApeak localname="LApeak">False</BBLApeak>
+ <BBLCpeak localname="LCpeak">True</BBLCpeak>
+ <BBLZpeak localname="LZpeak">False</BBLZpeak>
+ <BBLBpeak localname="LBpeak">False</BBLBpeak>
+ <BBLApeak1s localname="LApeak,1s">False</BBLApeak1s>
+ <BBLCpeak1s localname="LCpeak,1s">False</BBLCpeak1s>
+ <BBLZpeak1s localname="LZpeak,1s">False</BBLZpeak1s>
+ <BBLBpeak1s localname="LBpeak,1s">False</BBLBpeak1s>
+ <BBLAFTeq localname="LAFTeq">False</BBLAFTeq>
+ <CPBLAeq localname="LAeq">True</CPBLAeq>
+ <CPBLCeq localname="LCeq">False</CPBLCeq>
+ <CPBLZeq localname="LZeq">True</CPBLZeq>
+ <CPBLBeq localname="LBeq">True</CPBLBeq>
+ <CPBLAFmax localname="LAFmax">True</CPBLAFmax>
+ <CPBLCFmax localname="LCFmax">True</CPBLCFmax>
+ <CPBLZFmax localname="LZFmax">False</CPBLZFmax>
+ <CPBLBFmax localname="LBFmax">False</CPBLBFmax>
+ <CPBLASmax localname="LASmax">True</CPBLASmax>
+ <CPBLCSmax localname="LCSmax">False</CPBLCSmax>
+ <CPBLZSmax localname="LZSmax">False</CPBLZSmax>
+ <CPBLBSmax localname="LBSmax">False</CPBLBSmax>
+ <CPBLAFmin localname="LAFmin">True</CPBLAFmin>
+ <CPBLCFmin localname="LCFmin">False</CPBLCFmin>
+ <CPBLZFmin localname="LZFmin">False</CPBLZFmin>
+ <CPBLBFmin localname="LBFmin">False</CPBLBFmin>
+ <CPBLASmin localname="LASmin">True</CPBLASmin>
+ <CPBLCSmin localname="LCSmin">False</CPBLCSmin>
+ <CPBLZSmin localname="LZSmin">False</CPBLZSmin>
+ <CPBLBSmin localname="LBSmin">False</CPBLBSmin>
+ <CPBLAeq2nd localname="LAeq">True</CPBLAeq2nd>
+ <CPBLCeq2nd localname="LCeq">True</CPBLCeq2nd>
+ <CPBLZeq2nd localname="LZeq">True</CPBLZeq2nd>
+ <CPBLBeq2nd localname="LBeq">True</CPBLBeq2nd>
+ <CPBLAFmax2nd localname="LAFmax">False</CPBLAFmax2nd>
+ <CPBLCFmax2nd localname="LCFmax">True</CPBLCFmax2nd>
+ <CPBLZFmax2nd localname="LZFmax">False</CPBLZFmax2nd>
+ <CPBLBFmax2nd localname="LBFmax">False</CPBLBFmax2nd>
+ <CPBLASmax2nd localname="LASmax">False</CPBLASmax2nd>
+ <CPBLCSmax2nd localname="LCSmax">True</CPBLCSmax2nd>
+ <CPBLZSmax2nd localname="LZSmax">False</CPBLZSmax2nd>
+ <CPBLBSmax2nd localname="LBSmax">False</CPBLBSmax2nd>
+ <CPBLAFmin2nd localname="LAFmin">False</CPBLAFmin2nd>
+ <CPBLCFmin2nd localname="LCFmin">True</CPBLCFmin2nd>
+ <CPBLZFmin2nd localname="LZFmin">False</CPBLZFmin2nd>
+ <CPBLBFmin2nd localname="LBFmin">False</CPBLBFmin2nd>
+ <CPBLASmin2nd localname="LASmin">False</CPBLASmin2nd>
+ <CPBLCSmin2nd localname="LCSmin">True</CPBLCSmin2nd>
+ <CPBLZSmin2nd localname="LZSmin">False</CPBLZSmin2nd>
+ <CPBLBSmin2nd localname="LBSmin">False</CPBLBSmin2nd>
+ <BBLAF localname="LAF">True</BBLAF>
+ <BBLCF localname="LCF">True</BBLCF>
+ <BBLZF localname="LZF">True</BBLZF>
+ <BBLBF localname="LBF">True</BBLBF>
+ <BBLAS localname="LAS">False</BBLAS>
+ <BBLCS localname="LCS">False</BBLCS>
+ <BBLZS localname="LZS">False</BBLZS>
+ <BBLBS localname="LBS">False</BBLBS>
+ <BBLAFSPL localname="LAF(SPL)">False</BBLAFSPL>
+ <BBLCFSPL localname="LCF(SPL)">False</BBLCFSPL>
+ <BBLZFSPL localname="LZF(SPL)">False</BBLZFSPL>
+ <BBLBFSPL localname="LBF(SPL)">False</BBLBFSPL>
+ <BBLASSPL localname="LAS(SPL)">False</BBLASSPL>
+ <BBLCSSPL localname="LCS(SPL)">False</BBLCSSPL>
+ <BBLZSSPL localname="LZS(SPL)">False</BBLZSSPL>
+ <BBLBSSPL localname="LBS(SPL)">False</BBLBSSPL>
+ <CPBLAF localname="LAF">True</CPBLAF>
+ <CPBLCF localname="LCF">True</CPBLCF>
+ <CPBLZF localname="LZF">True</CPBLZF>
+ <CPBLBF localname="LBF">True</CPBLBF>
+ <CPBLAS localname="LAS">True</CPBLAS>
+ <CPBLCS localname="LCS">False</CPBLCS>
+ <CPBLZS localname="LZS">False</CPBLZS>
+ <CPBLBS localname="LBS">False</CPBLBS>
+ <CPBLAF2nd localname="LAF">True</CPBLAF2nd>
+ <CPBLCF2nd localname="LCF">True</CPBLCF2nd>
+ <CPBLZF2nd localname="LZF">True</CPBLZF2nd>
+ <CPBLBF2nd localname="LBF">True</CPBLBF2nd>
+ <CPBLAS2nd localname="LAS">False</CPBLAS2nd>
+ <CPBLCS2nd localname="LCS">True</CPBLCS2nd>
+ <CPBLZS2nd localname="LZS">False</CPBLZS2nd>
+ <CPBLBS2nd localname="LBS">False</CPBLBS2nd>
+ <BBLavSQ4 localname="LavS4">False</BBLavSQ4>
+ <BBLavSQ5 localname="LavS5">False</BBLavSQ5>
+ <BBLAE localname="LAE">False</BBLAE>
+ <BBLCE localname="LCE">False</BBLCE>
+ <BBLZE localname="LZE">False</BBLZE>
+ <BBLBE localname="LBE">False</BBLBE>
+ <FastBBLAeq localname="LAeq">False</FastBBLAeq>
+ <FastBBLCeq localname="LCeq">False</FastBBLCeq>
+ <FastBBLZeq localname="LZeq">False</FastBBLZeq>
+ <FastBBLBeq localname="LBeq">False</FastBBLBeq>
+ <FastBBLAF localname="LAF">True</FastBBLAF>
+ <FastBBLCF localname="LCF">False</FastBBLCF>
+ <FastBBLZF localname="LZF">False</FastBBLZF>
+ <FastBBLBF localname="LBF">False</FastBBLBF>
+ <FastBBLAS localname="LAS">False</FastBBLAS>
+ <FastBBLCS localname="LCS">False</FastBBLCS>
+ <FastBBLZS localname="LZS">False</FastBBLZS>
+ <FastBBLBS localname="LBS">False</FastBBLBS>
+ <FastCPBLAeq localname="LAeq">True</FastCPBLAeq>
+ <FastCPBLCeq localname="LCeq">False</FastCPBLCeq>
+ <FastCPBLZeq localname="LZeq">False</FastCPBLZeq>
+ <FastCPBLBeq localname="LBeq">False</FastCPBLBeq>
+ <FastCPBLAF localname="LAF">False</FastCPBLAF>
+ <FastCPBLCF localname="LCF">False</FastCPBLCF>
+ <FastCPBLZF localname="LZF">False</FastCPBLZF>
+ <FastCPBLBF localname="LBF">False</FastCPBLBF>
+ <FastCPBLAS localname="LAS">False</FastCPBLAS>
+ <FastCPBLCS localname="LCS">False</FastCPBLCS>
+ <FastCPBLZS localname="LZS">False</FastCPBLZS>
+ <FastCPBLBS localname="LBS">False</FastCPBLBS>
+ <FastCPBLAeq2nd localname="LAeq">False</FastCPBLAeq2nd>
+ <FastCPBLCeq2nd localname="LCeq">True</FastCPBLCeq2nd>
+ <FastCPBLZeq2nd localname="LZeq">False</FastCPBLZeq2nd>
+ <FastCPBLBeq2nd localname="LBeq">False</FastCPBLBeq2nd>
+ <FastCPBLAF2nd localname="LAF">False</FastCPBLAF2nd>
+ <FastCPBLCF2nd localname="LCF">False</FastCPBLCF2nd>
+ <FastCPBLZF2nd localname="LZF">False</FastCPBLZF2nd>
+ <FastCPBLBF2nd localname="LBF">False</FastCPBLBF2nd>
+ <FastCPBLAS2nd localname="LAS">False</FastCPBLAS2nd>
+ <FastCPBLCS2nd localname="LCS">False</FastCPBLCS2nd>
+ <FastCPBLZS2nd localname="LZS">False</FastCPBLZS2nd>
+ <FastCPBLBS2nd localname="LBS">False</FastCPBLBS2nd>
+ <SLMBarGraphPar localname="Graph parameter" localvalue="LAF">LAF</SLMBarGraphPar>
+ <ListBarGraphPar localname="Graph parameter" localvalue="LAF">LAF</ListBarGraphPar>
+ <FastBBFreqWeightA localname="A-weighting">True</FastBBFreqWeightA>
+ <FastBBFreqWeightC localname="C-weighting">False</FastBBFreqWeightC>
+ <FastBBFreqWeightZ localname="Z-weighting">False</FastBBFreqWeightZ>
+ <FastBBFreqWeightB localname="B-weighting">False</FastBBFreqWeightB>
+ <CPBStatisticsBasedOn localname="Spectrum basis parameter" localvalue="None">None</CPBStatisticsBasedOn>
+ <SLMBarFullScale localname="Graph max level">140 dB</SLMBarFullScale>
+ <ListBarFullScale localname="Graph max level">140 dB</ListBarFullScale>
+ <SLMBarMinLevel localname="Graph min level">20 dB</SLMBarMinLevel>
+ <ListBarMinLevel localname="Graph min level">20 dB</ListBarMinLevel>
+ <SpectrumCursor localname="Spectrum cursor">16</SpectrumCursor>
+ <RTSpectrumCursor localname="Spectrum cursor">19</RTSpectrumCursor>
+ <ProfileCursor localname="Profile cursor">0</ProfileCursor>
+ <AnalogOutput localname="Voltage output" localvalue="Disabled">Disabled</AnalogOutput>
+ <WeatherStation localname="Weather station" localvalue="None">None</WeatherStation>
+</Setup>

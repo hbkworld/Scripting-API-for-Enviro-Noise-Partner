@@ -7,7 +7,6 @@ using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Net.Http;
 using System.Collections.Generic;
-using System.Threading;
 using System.Linq;
 
 namespace ExampleProgram
@@ -57,18 +56,21 @@ namespace ExampleProgram
 
         private async Task Startup()
         {
+            IsEnabled = false;
             var path = System.Reflection.Assembly.GetExecutingAssembly().Location;
             NASPathBox.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "NAS disc", "BK2255-000501");
             projectnameBox.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "NAS project.enp");
             outputFile.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "output.xlsx");
             reportFile.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "report.docx");
 
-            datePicker.SelectedDate = datePicker.DisplayDateEnd = DateTime.Now;
-            datePicker_Instrument.SelectedDate = datePicker_Instrument.DisplayDateEnd = DateTime.Now;
+            datePicker.DisplayDateEnd = DateTime.Now;
+            datePicker_Instrument.DisplayDateEnd = DateTime.Now;
             await api.LaunchAppAsync(ScriptingApps.EnviromentalNoisePartner);
-            await SetFirstProjectAsync();
+            await SetFirstInstrumentProjectAsync();
+            await SetFirstInstrumentDateAsync();
             SetFirstNASDate();
             CheckApiVersion();
+            IsEnabled = true;
         }
 
         private void CheckApiVersion()
@@ -252,7 +254,7 @@ namespace ExampleProgram
 
             string url = $"http://{InstrumentIP.Text}/WebXi/Applications/SLM/Data/{dateString}";
             string result = await GetRequestAsync(url);
-            if (!string.IsNullOrEmpty(result) && result.Contains(","))
+            if (!string.IsNullOrEmpty(result) && result.Length > 7)
             {
                 measurements.Add("All");
 
@@ -271,12 +273,12 @@ namespace ExampleProgram
         {
             if (e.Text == "\r")
             {
-                instrumentDatePicker_SelectedDateChanged(datePicker_Instrument, null);
-                await SetFirstProjectAsync();
+                await SetFirstInstrumentProjectAsync();
+                await SetFirstInstrumentDateAsync();
             }
         }
 
-        private async Task SetFirstProjectAsync()
+        private async Task SetFirstInstrumentProjectAsync()
         {
             string url = $"http://{InstrumentIP.Text}/WebXi/Applications/SLM/Appdata/Enviro/9999_12_31_23_59_59/ProjectIndexMapping.xml";
             string result = await GetRequestAsync(url);
@@ -291,6 +293,31 @@ namespace ExampleProgram
             }
             else
                 InstrumentProjectImportText.Text = "";
+        }
+
+        private async Task SetFirstInstrumentDateAsync()
+        {
+            string url = $"http://{InstrumentIP.Text}/WebXi/Applications/SLM/Data";
+            string result = await GetRequestAsync(url);
+            if (!string.IsNullOrEmpty(result) && result.Contains(","))
+            {
+                var dateFolders = new List<string>();
+
+                foreach (var dateString in result.Substring(1, result.Length - 3).Split(','))
+                    dateFolders.Add(dateString.Substring(2, dateString.Length - 2 - 5));
+
+                if (DateTime.TryParseExact(dateFolders.OrderByDescending(x => x).First(), "yyyy_MM_dd", null, System.Globalization.DateTimeStyles.None, out DateTime date))
+                {
+                    if (datePicker_Instrument.SelectedDate == date)
+                        instrumentDatePicker_SelectedDateChanged(datePicker_Instrument, null);
+                    else
+                        datePicker_Instrument.SelectedDate = date;
+                }
+                else
+                    datePicker_Instrument.SelectedDate = DateTime.Now;
+            }
+            else
+                datePicker_Instrument.SelectedDate = DateTime.Now;
         }
 
         private async void ImportNASProjectClick(object sender, RoutedEventArgs e)

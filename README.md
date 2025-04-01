@@ -1,6 +1,6 @@
 # Scripting-API-for-Enviro-Noise-Partner
 
-This repository contains a scripting API that can remote control Enviro Noise Partner. The API makes it possible to:
+This repository contains a scripting API that can remote control Enviro Noise Partner. It is a C# API containing async methods to:
 - launch or attach to a running instance of Enviro Noise Partner
 - shutdown Enviro Noise Partner
 - open, close or save Enviro Noise Partner (.enp) projects
@@ -16,4 +16,5 @@ The repository also contains an example WPF program demonstrating these features
 ![Example program](ExampleProgram.png)
 
 When specifying an instrument IP or a NAS URL the program will automatically prepare to import the latest project or measurements. It is also possible to specify a specific named project or chose a specific measurement from a drop down:
+
 ![Download a single measurement](Measurements.png)

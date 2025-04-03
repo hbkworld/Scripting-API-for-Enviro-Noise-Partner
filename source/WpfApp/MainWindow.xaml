@@ -37,7 +37,7 @@
         <ComboBox x:Name="comboBoxNASMeasurement" HorizontalAlignment="Left" Margin="260,379,0,0" VerticalAlignment="Top" Width="238" Grid.ColumnSpan="2"/>
         <Button x:Name="NasMeasurementImport" Content="Import" HorizontalAlignment="Left" Margin="235,382,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.547,-0.399" Click="ImportNASMeasurementClick" Height="22" Width="70" Grid.Column="1"/>
         <Label Content="Instrument" FontWeight="Bold" HorizontalAlignment="Left" Margin="27,212,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.501,0.484"/>
-        <TextBox x:Name="InstrumentIP" HorizontalAlignment="Left" Height="21" Margin="162,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" VerticalContentAlignment="Center" Text="192.168.1.87" Grid.ColumnSpan="2" PreviewTextInput="InstrumentIP_PreviewTextInput"/>
+        <TextBox x:Name="InstrumentIP" HorizontalAlignment="Left" Height="21" Margin="162,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" VerticalContentAlignment="Center" Grid.ColumnSpan="2" PreviewTextInput="InstrumentIP_PreviewTextInput"/>
         <TextBlock HorizontalAlignment="Left" Height="21" Margin="162,198,0,0" TextWrapping="Wrap" Text="IP Address of instrument" VerticalAlignment="Top" Width="180"/>
         <DatePicker x:Name="datePicker_Instrument" HorizontalAlignment="Left" Margin="78,247,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="0.103,0.475" SelectedDateChanged="instrumentDatePicker_SelectedDateChanged" Width="143"/>
         <Label Content="Project" FontWeight="Bold" HorizontalAlignment="Left" Margin="164,279,0,0" VerticalAlignment="Top"/>

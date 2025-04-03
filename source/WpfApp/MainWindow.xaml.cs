@@ -41,14 +41,22 @@ namespace ExampleProgram
             Closing += MainWindow_Closing; 
         }
 
+        bool tryingToClose;
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            if (api != null && api.StartedFromHere)
+            if (api != null && api.StartedFromHere && !tryingToClose)
             {
                 e.Cancel = true;
                 Task.Factory.StartNew(async () =>
                 {
-                    await api.ShutDownAppAsync();
+                    try
+                    {
+                        await api.ShutDownAppAsync();
+                    }
+                    catch
+                    {
+                    }
+                    tryingToClose = true;
                     Dispatcher.Invoke(() => Close());
                 });
             }
@@ -248,9 +256,18 @@ namespace ExampleProgram
 
         private async void instrumentDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
         {
+            var measurements = new List<string>();
+
+            if (string.IsNullOrEmpty(InstrumentIP.Text))
+            {
+                measurements.Add("None");
+                comboBoxInstrumentMeasurement.ItemsSource = measurements;
+                comboBoxInstrumentMeasurement.SelectedIndex = 0;
+                return;
+            }   
+
             var date = (sender as DatePicker).SelectedDate;
             var dateString = $"{date.Value.Year}_{date.Value.Month.ToString("00")}_{date.Value.Day.ToString("00")}";
-            var measurements = new List<string>();
 
             string url = $"http://{InstrumentIP.Text}/WebXi/Applications/SLM/Data/{dateString}";
             string result = await GetRequestAsync(url);
@@ -280,6 +297,12 @@ namespace ExampleProgram
 
         private async Task SetFirstInstrumentProjectAsync()
         {
+            if (string.IsNullOrEmpty(InstrumentIP.Text))
+            {
+                InstrumentProjectImportText.Text = "";
+                return;
+            }
+
             string url = $"http://{InstrumentIP.Text}/WebXi/Applications/SLM/Appdata/Enviro/9999_12_31_23_59_59/ProjectIndexMapping.xml";
             string result = await GetRequestAsync(url);
             if (result != null)
@@ -297,6 +320,12 @@ namespace ExampleProgram
 
         private async Task SetFirstInstrumentDateAsync()
         {
+            if (string.IsNullOrEmpty(InstrumentIP.Text))
+            {
+                datePicker_Instrument.SelectedDate = DateTime.Now;
+                return;
+            }
+
             string url = $"http://{InstrumentIP.Text}/WebXi/Applications/SLM/Data";
             string result = await GetRequestAsync(url);
             if (!string.IsNullOrEmpty(result) && result.Contains(","))

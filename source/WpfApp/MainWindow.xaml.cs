@@ -66,10 +66,10 @@ namespace ExampleProgram
         {
             IsEnabled = false;
             var path = System.Reflection.Assembly.GetExecutingAssembly().Location;
-            NASPathBox.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "NAS disc", "BK2255-000501");
-            projectnameBox.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "NAS project.enp");
-            outputFile.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "output.xlsx");
-            reportFile.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.FullName, "report.docx");
+            NASPathBox.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.Parent.FullName, "NAS disc", "BK2255-000501");
+            projectnameBox.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.Parent.FullName, "NAS project.enp");
+            outputFile.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.Parent.FullName, "output.xlsx");
+            reportFile.Text = Path.Combine(Directory.GetParent(path).Parent.Parent.Parent.FullName, "report.docx");
 
             datePicker.DisplayDateEnd = DateTime.Now;
             datePicker_Instrument.DisplayDateEnd = DateTime.Now;
